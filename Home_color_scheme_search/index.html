@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang = "fr">
+  <head>
+    <title>
+      App | Module de fin du style
+    </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+    <body>
+      <section>
+      <h1>Recherche de couleurs pour la maison</h1>
+      <form>
+        <div>
+          <label for="couleur">Couleur à rechercher&nbsp;:</label>
+          <input type="text" id="couleur" name="couleur" value="rose" />
+        </div>
+        <div>
+          <label for="resultats-par-page">Résultats par page&nbsp;:</label>
+          <input
+            type="text"
+            id="resultats-par-page"
+            name="resultats-par-page"
+            value="4" />
+        </div>
+        <div>
+          <button type="button">Envoyer</button>
+        </div>
+    </form>
+      </section>
+    <hr/>
+    <section>
+  <h2>Résultats de la recherche</h2>
+  <table>
+    <caption>
+      Exemples de couleurs et de schémas de couleurs
+    </caption>
+    <thead>
+      <tr>
+        <th scope="col">Couleur</th>
+        <th scope="col">Couleur brute</th>
+        <th scope="col">Étiquettes</th>
+        <th scope="col">Exemple de schéma de couleurs</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Rose</td>
+        <td><code>rgb(255 192 203)</code></td>
+        <td>rose, pâle, clair</td>
+        <td>
+          <img
+            src="../images/living-room-pink.png"
+            alt="Image d'un salon dans un schéma de couleurs rose" />
+        </td>
+      </tr>
+      <tr>
+        <td>Rose Baker-Miller</td>
+        <td><code>rgb(255 145 175)</code></td>
+        <td>rose, pâle, vif</td>
+        <td>
+          <img
+            src="../images/living-room-baker-miller-pink.png"
+            alt="Image d'un salon dans un schéma de couleurs Rose Baker-Miller" />
+        </td>
+      </tr>
+      <tr>
+        <td>Rose vif</td>
+        <td><code>rgb(255 105 180)</code></td>
+        <td>rose, vif, éclatant</td>
+        <td>
+          <img
+            src="../images/living-room-hotpink.png"
+            alt="Image d'un salon dans un schéma de couleurs Rose vif" />
+        </td>
+      </tr>
+      <tr>
+        <td>Fuchsia</td>
+        <td><code>rgb(255 0 255)</code></td>
+        <td>fuchsia, moyen, vif</td>
+        <td>
+          <img
+            src="../images/living-room-fuchsia.png"
+            alt="Image d'un salon dans un schéma de couleurs fuchsia" />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="controles">
+    <button disabled>Précédent</button>
+    <p>Affichage de la page 1 sur 20</p>
+    <button>Suivant</button>
+  </div>
+</section>
+    </body>
+</html>

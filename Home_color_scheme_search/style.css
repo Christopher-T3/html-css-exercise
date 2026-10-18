@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+body {
+  margin: 0 10px;
+}
+
+hr {
+  margin: 3em 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Mise en page des contrôles Précédent/Suivant */
+
+.controles {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style des formulaires et des boutons */
+
+form div {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 1em;
+}
+
+label {
+  text-align: right;
+  flex: 1;
+}
+
+input {
+  flex: 3;
+}
+
+/* Style des tableaux */
+
+table img {
+  width: 100%;
+  height: 150px;
+}
+
+button , input {
+    padding : 0px ;
+    margin : 0px ;
+    font-style: inherit;
+    font-size : 100%;
+}
+
+input {
+    border : 2px solid #999999 ;
+    padding : 10px ;
+    border-radius : 5px ;
+}
+
+button {
+    border: none ;
+    background-color : black ;
+    color : white ;
+    padding : 10px 2em;
+}
+
+button:hover {
+    background-color : #666666;
+}
+
+button:disabled {
+    background-color : #aaaaaa ;
+}
+
+table {
+    table-layout : fixed ;
+    width : 100%;
+    border-collapse : collapse ;
+    border-top : 1px solid #999999;
+    border-bottom : 1px solid #999999;
+}
+
+th , td {
+    padding : 0.6em ;
+    vertical-align: top;
+    
+}
+
+th {
+    border-bottom : 1px solid #999999;
+    width : 20%;
+}
+
+th:nth-child(4) {
+    width : 40%;
+}
+
+tr:nth-child(1) td:nth-child(2) {
+    background-color: rgb(255 ,  192 , 203);
+}
+
+tr:nth-child(2) td:nth-child(2) {
+    background-color: rgb(255 ,  145 , 175);
+}
+
+tr:nth-child(3) td:nth-child(2) {
+    background-color: rgb(255 ,  105 , 180);
+}
+
+tr:nth-child(4) td:nth-child(2) {
+    background-color: rgb(255 ,  0 , 255);
+}
+
+body tr:nth-of-type(odd) {
+    background-color : #eeeeee ;
+}
+
+caption {
+    padding : 1em ;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+table img {
+    width : 100%;
+    height : 150px ;
+    object-fit: cover;
+    object-position: bottom;
+}
